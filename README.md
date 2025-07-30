@@ -1,5 +1,4 @@
-# [<img src="docs/assets/logo.png"> React Portfolio](https://ryanbalieiro.github.io/react-portfolio-template/) by Ryan Balieiro
-
+# [<img src="docs/assets/logo.png"> React Portfolio](https://ryanbalieiro.github.io/react-portfolio-template/) by Durga
 A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
 
 ![alt promo](docs/assets/readme-promotional-image-min.png)
