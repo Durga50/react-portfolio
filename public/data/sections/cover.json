@@ -1,0 +1,73 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Durga!}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Karur, Tamil Nadu",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "edurga02@gmail.com",
+                    "link": {"href": "edurga02@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@durga50",
+                    "link": {"href": "https://github.com/durga50", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."}
+                
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a passionate and detail-oriented {{Full Stack Developer}} who loves turning ideas into interactive, user-friendly web applications. With hands-on experience in front-end technologies like {{HTML, CSS, Bootstrap, JavaScript, and React,}} along with back-end skills in {{Node.js, Express,}} and databases like {{MongoDB and MySQL}}, I enjoy building seamless digital experiences from start to finish. A quick learner and self-starter, I thrive in collaborative environments and am always excited to take on new challenges that push my creativity and technical skills.</p>"
+                        }
+                    }
+                }
+            ]
+        }
+
+       
+    ]
+}

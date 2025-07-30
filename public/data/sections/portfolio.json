@@ -1,0 +1,157 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_fe": "Front end",
+                    "category_fs": "Full Stack"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_fe", "category_fs"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_fs",
+                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://drive.google.com/file/d/1F6z7xKQaEzb7U4RVbJUKjItXP5sC2yUh/view?usp=drive_link", "tooltipString": "demo_video", "faIcon": "fa-solid fa-link"}
+                            
+                        ],
+                        "screenshots": [
+                            
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MediTrust",
+                            "text": "A web app enhancing trust in hospital care through real-time updates. Nurses upload proof of treatment (photos), while attendants receive notifications via a dedicated dashboard.",
+                            "tags": ["HTML", "CSS", "JS","PHP","MySQL"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_fs",
+                    "img": "images/pictures/portfolio-project-logo-7.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://drive.google.com/file/d/1p3erX0XY7GEtTVmKdwTEVNYfMOjdLMco/view?usp=drive_link",  "tooltipString": "demo_video", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "KTG Taskflow",
+                            "text": "A task management platform that allows employees to update daily task progress based on assignments. Admins can review updates and generate reports for both employees and projects, improving transparency and workflow tracking.",
+                            "tags": ["HTML", "CSS", "JS","PHP","MySQL"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_fs",
+                    "img": "images/pictures/portfolio-project-logo-6.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            
+                        ],
+                        "screenshots": [
+                            "images/pictures/1.png",
+                            "images/pictures/2.png",
+                            "images/pictures/3.png",
+                            "images/pictures/4.png",
+                            "images/pictures/5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MKCE TRAYO",
+                            "text": "A digital platform that streamlines college canteen operations by enabling online food ordering, Code-based order verification, and automated token generation. Reduces crowding, wait time, and food waste.",
+                            "tags": ["HTML", "CSS", "JS","PHP","MySQL","Hardware Integration"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_fe",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://muniba-mazari-tribute-page.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tribute Page",
+                            "text": "A tribute page for Muniba Mazari - Muniba Mazari, the Iron Lady of Pakistan,is a wheelchair-bound artist, speaker, and UN Women Ambassador who inspires millions with her story of resilience, turning personal tragedy into a powerful message of hope and empowerment.",
+                            "tags": ["HTML", "CSS", "JS"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_fe",
+                    "img": "images/pictures/portfolio-project-logo-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://calculator-beryl-gamma.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Calculator",
+                            "text": "A simple calculator built using HTML, CSS, and JavaScript that performs basic arithmetic operations like addition, subtraction, multiplication, and division with a clean and responsive user interface.",
+                            "tags": ["HTML", "CSS", "JS"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

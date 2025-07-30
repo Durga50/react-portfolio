@@ -1,0 +1,64 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/tih.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2024, "month": 3},
+                    "dateEnd": {"year": 2025, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Developer",
+                            "province": "",
+                            "country": "Karur, Tamil Nadu, India",
+                            "institution": "MKCE - {{Technology Innovation Hub (TIH)}}",
+                            "text": "Gaining  real-time industry experience at {{TIH}} by building projects, collaborating with teams, and exploring new technologies; currently contributing to the development of Trayo - a Smart Canteen Ordering System aimed at streaming food ordering and reduces crowding",
+                            "list": [],
+                            "tags": ["HTML","CSS","PHP8.0", "MySQL","MongoDB", "React","JavaScript","NodeJS"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/KTG.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2025, "month": 2},
+                    "dateEnd": {"year": 2025, "month": 3},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Engineer",
+                            "province": "",
+                            "country": "Karur, Tamil Nadu, India",
+                            "institution": "Knock The Globe Technologies - KTGT",
+                            "text": "Developed and deployed “KTG Taskflow” Task Manager Web App using Core PHP, MySQL, HTML, CSS, and JS; contributed to 3+ live projects, gaining real-time experience in backend architecture, responsive UI, and collaborative debugging.",
+                            "list": [],
+                            "tags": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Durga E",
+
+    "profilePictureUrl": "images/pictures/profile.jpeg",
+    "resumePdfUrl": "",
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_hire",
+
+    "locales": {
+        "en": {
+            "localized_name": "Durga E",
+            "localized_name_stylized": " [[Durga {{E}}]]",
+            "status_message_available_for_hire": "Available for Hire!",
+            "roles": [
+                "Frontend Developer",
+                "Backend Developer",
+                "Full Stack Developer"
+            ]
+        }
+    }
+}

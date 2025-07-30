@@ -1,0 +1,197 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-js",
+                    "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
+                    "date": {"year": 2024, "month": 12},
+                    "link": {"href": "https://drive.google.com/file/d/1MyCMfLZLees_GIx2UKAhuBZpPDKaboeg/view?usp=sharing", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "The {{Cisco Network Academy}}",
+                            "text": "Certified in Javascript Essentials"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-php",
+                    "faIconColors": {"bg": "#FFD700", "fill": "#111"},
+                    "date": {"year": 2022, "month": 2},
+                    "link": {"href": "https://drive.google.com/file/d/1n15ANxxMNSqZZI1jbkB5DYEpmPz14-B4/view?usp=sharing", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Stack - Queue}}",
+                            "text": "Credit Based Training on PHP & MySQL"
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEE"},
+                    "date": {"year": 2024, "month": 4},
+                    "link": {"href": "https://drive.google.com/file/d/1DUFDBMSDqVaS4HpheGC0PRpjL3z9XzY3/view?usp=sharing", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{NPTEL}}",
+                            "text": "Certified in programming in Java"
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-spell-check",
+                    "faIconColors": {"bg": "#47A248", "fill": "#EEE"},
+                    "date": {"year": 2024, "month": 4},
+                    "link": {"href": "https://drive.google.com/file/d/1h32CCoq1hJht6cO_XQenHrCM8t9c7gFq/view?usp=sharing", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{HINDUS}} Group",
+                            "text": "STEP Certificaion"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Awards" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2025, "month": 3},
+                    "preview": {
+                        "links": [
+                            {"href": "https://drive.google.com/file/d/1q2Ui7w4E77oqq46heAMpZgIAoKfwORDw/view?usp=sharing", "tooltipString": "read", "faIcon": "fa-solid fa-file-pdf"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{1st Place}} – 10-hour Hackathon, Gateway’25",
+                            "province": "",
+                            "country": "India",
+                            "institution": "PSG College of Arts and Science",
+                            "text": ""
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "date": {"year": 2025, "month": 3},
+                    "preview": {
+                        "links": [
+                            {"href": "https://drive.google.com/file/d/12fE1zaVogmj92ZlARe4QdSBPyq3J2t9z/view?usp=sharing", "tooltipString": "see_on_github", "faIcon": "fa-solid fa-file-pdf"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{3rd Place}} – 36 - hour Hackathon, Dakshaa T25 Neura-Hack 2025",
+                            "province": "",
+                            "country": "India",
+                            "institution": " K.S. Rangasamy College of Technology.",
+                            "text": "",
+                            "list": [
+                                
+                            ]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "date": {"year": 2025, "month": 4},
+                    "preview": {
+                        "links": [
+                            {"href": "https://drive.google.com/file/d/1cetqa_lcuytXljuvNHUGcq2or3IxmAav/view?usp=sharing", "tooltipString": "read", "faIcon": "fa-solid fa-file-pdf"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{1st Place}} – 24-hour Hackathon",
+                            "province": "",
+                            "country": "India",
+                            "institution": "Kongu Engineering College",
+                            "text": ""
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "date": {"year": 2023, "month": 5},
+                    "preview": {
+                        "links": [
+                            {"href": "https://drive.google.com/file/d/1HbgfSl8fxkxYJXAzDiqJrrYYshkvrRHs/view?usp=sharing", "tooltipString": "read", "faIcon": "fa-solid fa-file-pdf"}
+                        ],
+                        "screenshots": [
+                            
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{1st Place}} in Java Coding Contest - HackerRank",
+                            "province": "",
+                            "country": "India",
+                            "institution": "MKCE",
+                            "text": "",
+                            "list": [
+                                
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
